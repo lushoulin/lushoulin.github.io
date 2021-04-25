@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <nav>
+    
+      <a href="/" >Home</a>
+    
+      <a href="/about.html" >About</a>
+    
+      <a href="/blog.html" >Blog</a>
+    
+      <a href="/staff.html" >Staff</a>
+    
+  </nav>
+    <h1>Test</h1>
+
+<p>
+  25 Apr 2021
+  
+  
+</p>
+
+<h1 id="welcome-to-learnote-欢迎来到learnote">Welcome to Learnote! 欢迎来到Learnote!</h1>
+
+<h2 id="1-排版">1. 排版</h2>
+
+<p><strong>粗体</strong> <em>斜体</em></p>
+
+<p><del>这是一段错误的文本。</del></p>
+
+<p>引用:</p>
+
+<blockquote>
+  <p>引用Leanote官方的话, 为什么要做Leanote, 原因是…</p>
+</blockquote>
+
+<p>有充列表:</p>
+<ol>
+  <li>支持Vim</li>
+  <li>支持Emacs</li>
+</ol>
+
+<p>无序列表:</p>
+
+<ul>
+  <li>项目1</li>
+  <li>项目2</li>
+</ul>
+
+<h2 id="2-图片与链接">2. 图片与链接</h2>
+
+<p>图片:
+<img src="https://www.hualigs.cn/image/6085964ed3178.jpg" alt="" />
+链接:</p>
+
+<p><a href="http://leanote.leanote.com">这是去往Leanote官方博客的链接</a></p>
+
+<h2 id="3-标题">3. 标题</h2>
+
+<p>以下是各级标题, 最多支持5级标题</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># h1
+## h2
+### h3
+#### h4
+##### h4
+###### h5
+</code></pre></div></div>
+
+<h2 id="4-代码">4. 代码</h2>
+
+<p>示例:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function get(key) {
+    return m[key];
+}
+</code></pre></div></div>
+
+<p>代码高亮示例:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+* nth element in the fibonacci series.
+* @param n &gt;= 0
+* @return the nth element, &gt;= 0.
+*/</span>
+<span class="kd">function</span> <span class="nx">fib</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="nx">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nx">tmp</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="o">--</span><span class="nx">n</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">a</span><span class="p">;</span>
+    <span class="nx">a</span> <span class="o">+=</span> <span class="nx">b</span><span class="p">;</span>
+    <span class="nx">b</span> <span class="o">=</span> <span class="nx">tmp</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">a</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">fib</span><span class="p">(</span><span class="mi">10</span><span class="p">));</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Employee</span><span class="p">:</span>
+   <span class="n">empCount</span> <span class="o">=</span> <span class="mi">0</span>
+ 
+   <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">salary</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">salary</span> <span class="o">=</span> <span class="n">salary</span>
+        <span class="n">Employee</span><span class="p">.</span><span class="n">empCount</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div></div>
+
+<h1 id="5-markdown-扩展">5. Markdown 扩展</h1>
+
+<p>Markdown 扩展支持:</p>
+
+<ul>
+  <li>表格</li>
+  <li>定义型列表</li>
+  <li>Html 标签</li>
+  <li>脚注</li>
+  <li>目录</li>
+  <li>时序图与流程图</li>
+  <li>MathJax 公式</li>
+</ul>
+
+<h2 id="51-表格">5.1 表格</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Computer</td>
+      <td>$1600</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>$12</td>
+    </tr>
+    <tr>
+      <td>Pipe</td>
+      <td>$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>可以指定对齐方式, 如Item列左对齐, Value列右对齐, Qty列居中对齐</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Item</th>
+      <th style="text-align: right">Value</th>
+      <th style="text-align: center">Qty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Computer</td>
+      <td style="text-align: right">$1600</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Phone</td>
+      <td style="text-align: right">$12</td>
+      <td style="text-align: center">12</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Pipe</td>
+      <td style="text-align: right">$1</td>
+      <td style="text-align: center">234</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="52-定义型列表">5.2 定义型列表</h2>
+
+<dl>
+  <dt>名词 1</dt>
+  <dd>定义 1（左侧有一个可见的冒号和四个不可见的空格）</dd>
+  <dt>代码块 2</dt>
+  <dd>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>代码块（左侧有八个不可见的空格）
+</code></pre></div>    </div>
+  </dd>
+</dl>
+
+<h2 id="53-html-标签">5.3 Html 标签</h2>
+
+<p>支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th rowspan="2"&gt;值班人员&lt;/th&gt;
+        &lt;th&gt;星期一&lt;/th&gt;
+        &lt;th&gt;星期二&lt;/th&gt;
+        &lt;th&gt;星期三&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李强&lt;/td&gt;
+        &lt;td&gt;张明&lt;/td&gt;
+        &lt;td&gt;王平&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre></div></div>
+
+<table>
+    <tr>
+        <th rowspan="2">值班人员</th>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+    </tr>
+    <tr>
+        <td>李强</td>
+        <td>张明</td>
+        <td>王平</td>
+    </tr>
+</table>
+
+
+</body>
+
+</html>
