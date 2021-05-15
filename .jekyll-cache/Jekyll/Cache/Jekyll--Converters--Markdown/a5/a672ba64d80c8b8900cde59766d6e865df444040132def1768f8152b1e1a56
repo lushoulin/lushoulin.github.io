@@ -1,0 +1,60 @@
+I"<h1 id="web应用软件开发实训一第3次作业--git使用">WEB应用软件开发实训一第3次作业- Git使用</h1>
+
+<blockquote>
+  <p>learngit     项目网址为︰https://lushoulin.github.io/learngit/</p>
+  <h2 id="一必做部分">一、必做部分</h2>
+  <h3 id="1安装git">1．安装Git</h3>
+  <p><img src="https://i.loli.net/2021/05/15/qP9hnwovWLVzmaT.png" alt="image.png" /></p>
+  <h3 id="2创建版本库">2．创建版本库</h3>
+  <p><img src="https://i.loli.net/2021/05/15/tnPlcFjoemfK5DO.png" alt="image.png" /></p>
+  <h3 id="3版本控制">3．版本控制;</h3>
+  <p><img src="https://i.loli.net/2021/05/15/7fmO5MUl6tGiDWw.png" alt="image.png" />
+<img src="https://i.loli.net/2021/05/15/uAwQG4yh97ZRbBi.png" alt="image.png" /></p>
+  <h3 id="4版本回退">4.版本回退</h3>
+  <p><img src="https://i.loli.net/2021/05/15/QgYdp4CiMAwV31Z.png" alt="image.png" /></p>
+  <h3 id="5工作区和暂存区">5.工作区和暂存区</h3>
+  <p><img src="https://i.loli.net/2021/05/15/F2iKH5ArsxwuWo4.png" alt="image.png" /></p>
+  <h3 id="6管理修改">6.管理修改</h3>
+  <p><img src="https://i.loli.net/2021/05/15/hvODIqgVukjmKP8.png" alt="image.png" /></p>
+  <h3 id="7撤销修改">7.撤销修改</h3>
+  <p><img src="https://i.loli.net/2021/05/15/T5Ub3rW9s6ARaeK.png" alt="image.png" />
+<img src="https://i.loli.net/2021/05/15/n5D9oPxfcRve8E3.png" alt="image.png" /></p>
+  <h3 id="8删除文件">8.删除文件</h3>
+  <p><img src="https://i.loli.net/2021/05/15/5FdsMZKcEO14VCD.png" alt="image.png" /></p>
+  <h3 id="9远程仓库">9.远程仓库</h3>
+  <p><img src="https://i.loli.net/2021/05/15/WTiyPJlrFw3R951.png" alt="image.png" /></p>
+</blockquote>
+
+<h3 id="10添加远程仓库">10.添加远程仓库</h3>
+<p><img src="https://i.loli.net/2021/05/15/R8rbdqUf2D4aOkV.png" alt="image.png" /></p>
+<h3 id="11从远程仓库克隆">11.从远程仓库克隆</h3>
+<p><img src="https://i.loli.net/2021/05/15/utT3iwamLSfD5CK.png" alt="image.png" /></p>
+
+<h2 id="二选做部分">二、选做部分</h2>
+<h3 id="一分支管理">(一)分支管理</h3>
+<h4 id="1创建与合并分支">1.创建与合并分支</h4>
+<p><img src="https://i.loli.net/2021/05/15/ivclV2s3WNPxdtX.png" alt="image.png" /></p>
+<h4 id="2解决冲突">2.解决冲突</h4>
+<p><img src="https://i.loli.net/2021/05/15/QroGc1M8yEsWTYz.png" alt="image.png" /></p>
+<h4 id="3分支管理策略">3.分支管理策略</h4>
+<p><img src="https://i.loli.net/2021/05/15/tyGiXwAcJNQjDYz.png" alt="image.png" /></p>
+<h4 id="4bug分支">4.bug分支</h4>
+<p><img src="https://i.loli.net/2021/05/15/mlNEVz92ei1KBRj.png" alt="image.png" /></p>
+<h4 id="5feature分支">5.feature分支</h4>
+<p><a href="https://i.loli.net/2021/05/15/BQsDHmKyG6w18A4.png">image.png</a></p>
+<h4 id="6多人协作">6.多人协作</h4>
+<p><img src="https://i.loli.net/2021/05/15/8D1PiwhqBH57cdQ.png" alt="image.png" />
+<img src="https://i.loli.net/2021/05/15/QqBNkc3XtHp2SYv.png" alt="image.png" /></p>
+<h3 id="二标签管理">（二）标签管理</h3>
+<h4 id="1创建标签">1.创建标签</h4>
+<p><img src="https://pic.imgdb.cn/item/609f43096ae4f77d352b198e.jpg" alt="" /></p>
+<h4 id="2操作标签">2.操作标签</h4>
+<p><img src="https://pic.imgdb.cn/item/609f43306ae4f77d352c8082.jpg" alt="" /></p>
+<h2 id="三实验过程简单描述实验过程">三、实验过程(简单描述实验过程)</h2>
+<p>本实验主要是根据教程，一步一步学习使用Git,实验过程中出现了一些小错误，自己上网搜索得到了解决。</p>
+<h2 id="四总结">四、总结</h2>
+<p>(重点写你在过程中遇到的问题，你是如何解决这个问题的，你对这个问题的理解;以及本次试验的心得体会或者收获)
+ 本次实验我遇到的第一个问题是对vi命令不熟悉，进入到编辑页面后不知道怎么编辑保存退出，网上搜索学习后解决。然后是在远程仓库中添加key时报错，网上搜索后得知直接复制id_rsa.pub中的内容会出现格式错误，使用cat ~/.ssh/id_rsa.pub复制成功。在多人协作抓取分支这一步中从远程库中clone出现错误，后又出现在模拟另一个人查看本地分支能看到所有分支（与教程上只能看到main分支不一致），通过网上搜索和观看教程中的视频发现是clone这步操作错误。
+ 通过本次实验我的感受是即使按照教程一步一步操作仍然会出现这样或是那样的问题，我们也应该有独立解决问题的能力，通过网上搜索或是与同学交流解决问题，熟能生巧，像这些基本的教程平时应该多看多练才能熟练并运用自如。</p>
+
+:ET
